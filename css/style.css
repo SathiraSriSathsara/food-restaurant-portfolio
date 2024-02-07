@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Protest+Riot&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Noto+Sans:wght@300&family=Outfit:wght@500;600&family=Protest+Riot&family=Raleway:wght@200&family=Roboto+Mono&family=Roboto:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Additional styling for demonstration purposes */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: rgba(22, 22, 22, 0.986);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100%; /* Set the width of each slide to cover the entire viewport */
+    height: auto;
+}
+
+.btn button {
+    position: absolute;
+    top: 25%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.sec01{
+    display: flex;
+}
+.sec01 h1{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 55px;
+    color: #111010;
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.sec01 p{
+    flex: 1;
+    font-size: 16px;
+    color: #141414;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500px;
+    text-align: left;
+    padding: 20px;
+}
+
+.sec01 img {
+    width: 350px;
+    margin-left: 20px;/* Adjust margin as needed */
+    padding: 20px; 
+}
+.left-section {
+    flex: 1;
+}
+
+.right-section {
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.before-footer{
+    background-color: rgba(34, 33, 33, 0.986);
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.section01 {
+    display: flex;
+    text-align: justify;
+}
+
+.left-section, .middle-section, .right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-section {
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.right-section img{
+    margin-left: 100px;
+}
+
+.middle-section p{
+    padding: 8px;
+    margin-left: 50px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e5b900;
+}
+
+
+.popular-foods {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffcc00;
+}
