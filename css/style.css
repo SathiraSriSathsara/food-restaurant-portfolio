@@ -84,7 +84,7 @@ footer {
 
 .btn button {
     position: absolute;
-    top: 13%;
+    top: 10%;
     width: 50px;
     height: 50px;
     font-size: 20px;
@@ -207,7 +207,7 @@ button:hover {
 .card {
     background-color: #111010;
     width: 250px;
-    margin: 20px;
+    margin: 50px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
